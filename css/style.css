@@ -23,7 +23,6 @@ body{
 	height: 85vh;
 	justify-content: center;
 	display:block;
-	margin: 0 5% 0 5%;
 }
 
 
@@ -164,7 +163,7 @@ body{
     font-style: normal;
     font-weight: 400;
     border-radius: 10px;
-	min-width: 5.8vw;
+	min-width: 6.2vw;
 	min-height: 5.4vh;
 }
 
@@ -230,10 +229,19 @@ body{
 }
 
 @media (max-width: 650px){
+    .section-page1, .section-page2{
+	width: 100vw;
+	height: 100vh;
+	}
+
+    .line2 {
+    display: block;  
+	}
+     
+    .group-email, .group-phone{
+	width: 100%;
+	margin-top: 3vh;
+	}
 
 
-
-
-
-	
 }
