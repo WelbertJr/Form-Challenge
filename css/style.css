@@ -22,7 +22,8 @@ body{
 	min-width: 45vw;
 	height: 85vh;
 	justify-content: center;
-	display:flex;
+	display:block;
+	margin: 0 5% 0 5%;
 }
 
 
@@ -37,7 +38,7 @@ body{
 }
 
 .class-form{
-	display: flex;
+	display: block;
 	flex-direction: column;
 	font-family: 'Nunito';
     font-style: normal;
@@ -45,6 +46,7 @@ body{
     font-weight: 400;
 	color: #767676;
 	background: #FFFFFF;
+	margin: 0 5% 0 5%;
 }
 
 
@@ -162,8 +164,8 @@ body{
     font-style: normal;
     font-weight: 400;
     border-radius: 10px;
-	width: 4.8vw;
-	height: 5.4vh;
+	min-width: 5.8vw;
+	min-height: 5.4vh;
 }
 
 /*page2*/
@@ -227,4 +229,11 @@ body{
 	border: none;
 }
 
-    
+@media (max-width: 650px){
+
+
+
+
+
+	
+}
