@@ -194,7 +194,6 @@ body{
     font-size: 1.8em;
     line-height: 1.2vh;
     color: #111111;
-	margin-top: 1vh;
     text-align: center;
     height: 20%;
 	margin-top: 8%;
@@ -251,6 +250,7 @@ body{
 	#input-button{
 	margin-top: 5vh;
 	height: 7vh;
+	font-size: 1em;
 	}
         /*page2*/
 	.section-page2{
@@ -261,6 +261,21 @@ body{
 	align-items: center;
 	min-width: 0;
 	}	
+
+	.displayed2{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		min-width: 217px;
+		height: 16vh;
+		margin-top: 30%;
+	}
+	
+	.h1-page2{
+	margin-top: 30%;
+	height: 10%;
+	font-size: 2.4em;
+	}
 	
 	.group-sucess{
 	width:100vw;
@@ -268,23 +283,15 @@ body{
     display:flex;
 	align-items: center;
 	justify-content: center;
-	margin-bottom: 40%;
+	margin-bottom: 5%;
 	}
     
-    .displayed2{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	min-width: 217px;
-	height: 16vh;
-	margin-top: 20%;
-	}
-
 	#input-button2{
 	min-width: 10%;
 	min-height: 10%;
-	width: 80%;	
-	height: 35%;
+	width: 85%;	
+	height: 40%;
+	margin-bottom: 15%;
 	}
 }
 
