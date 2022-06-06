@@ -19,10 +19,10 @@ body{
 .section-page1{
 	background: #FFFFFF;	
 	border-radius: 20px;
-	min-width: 40vw;
-	height: 85vh;
+	width: 500px;
+	height: 600px;
 	justify-content: center;
-	display:block;
+	display: block;
 }
 
 
@@ -34,6 +34,7 @@ body{
 	align-items: center;
 	min-width: 213px;
 	height: 16vh;
+	margin-top: 6%;
 }
 
 .class-form{
@@ -163,8 +164,8 @@ body{
     font-style: normal;
     font-weight: 400;
     border-radius: 10px;
-	min-width: 6.2vw;
-	min-height: 5.4vh;
+	min-width: 60px;
+	min-height: 35px;
 }
 
 /*page2*/
@@ -172,9 +173,8 @@ body{
 .section-page2{
 	background: #FFFFFF;	
 	border-radius: 20px;
-	min-width: 100%;
-	min-width: 40vw;
-    height: 85vh;
+	width: 500px;
+	height: 600px;
 	justify-content: center;
 	display: none;
 }
@@ -256,10 +256,6 @@ body{
 	.section-page2{
     width: 100vw;
 	height: 100vh;
-	display:flex;
-	justify-content: center;
-	align-items: center;
-	min-width: 0;
 	}	
 
 	.displayed2{
