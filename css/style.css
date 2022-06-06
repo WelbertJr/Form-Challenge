@@ -172,9 +172,9 @@ body{
 .section-page2{
 	background: #FFFFFF;	
 	border-radius: 20px;
-	max-width: 100%;
+	min-width: 100%;
 	min-width: 40vw;
-	height: 85vh;
+    height: 85vh;
 	justify-content: center;
 	display: none;
 }
@@ -209,8 +209,8 @@ body{
 	margin-bottom: 15%;
 }
 #input-button2{
-    min-width: 7em;
-    min-height: 5em;
+    min-width: 50%;
+    min-height: 130%;
 	display: block;
     align-items: center;
 	justify-content: center;
@@ -256,26 +256,37 @@ body{
 	.section-page2{
     width: 100vw;
 	height: 100vh;
-	display:block;
+	display:flex;
 	justify-content: center;
 	align-items: center;
+	min-width: 0;
 	}	
 	
 	.group-sucess{
 	width:100vw;
-	height: 70%;
+	height: 30%;
     display:flex;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 40%;
+	}
+    
+    .displayed2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 217px;
+	height: 16vh;
+	margin-top: 20%;
 	}
 
 	#input-button2{
-	width: 40%;
-	height: 20%;
-	margin-top: 0;
-	font-size: 3em;
+	min-width: 10%;
+	min-height: 10%;
+	width: 80%;	
+	height: 35%;
 	}
-
-
 }
+
+
 
